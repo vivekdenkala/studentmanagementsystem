@@ -35,6 +35,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.setAllowedOriginPatterns(List.of(
+            "https://studentmanagementsystemfront.vercel.app",
             "null",
             "file://",
             "http://localhost:*",
