@@ -19,6 +19,7 @@ import com.attendance.teacherattendance.service.StudentService;
 
 import jakarta.validation.Valid;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/students")
 public class StudentController {
